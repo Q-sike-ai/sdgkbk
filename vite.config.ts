@@ -42,9 +42,6 @@ export default defineConfig({
   },
   build: {
     target: 'es2020',
-    commonjsOptions: {
-      include: [/node_modules/]
-    },
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
