@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Header from '@components/layout/Header';
 import Footer from '@components/layout/Footer';
 import MainLayout from '@/components/layout/MainLayout';
@@ -11,7 +11,7 @@ import FAQ from '@pages/FAQ';
 
 const App = () => {
   return (
-    <Router basename="/sdgkbk">
+    <HashRouter>
       <Header />
       <MainLayout>
         <Routes>
@@ -24,7 +24,7 @@ const App = () => {
         </Routes>
       </MainLayout>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 };
 
