@@ -20,31 +20,11 @@ export default defineConfig({
     port: 3000,
     host: true
   },
-  optimizeDeps: {
-    include: [
-      'react',
-      'react-dom',
-      'antd',
-      '@ant-design/icons',
-      '@emotion/react',
-      '@emotion/styled',
-      'framer-motion',
-      'recharts',
-      'dayjs',
-      'rc-picker',
-      'rc-util',
-      'classnames',
-      '@emotion/is-prop-valid'
-    ],
-    esbuildOptions: {
-      target: 'es2020'
-    }
-  },
   build: {
     target: 'es2020',
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: false,
+    sourcemap: true,
     rollupOptions: {
       output: {
         manualChunks: {
