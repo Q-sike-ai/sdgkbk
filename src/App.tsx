@@ -11,7 +11,7 @@ import FAQ from '@/pages/FAQ';
 
 const App = () => {
   return (
-    <HashRouter basename="/sdgkbk">
+    <HashRouter>
       <Header />
       <MainLayout>
         <Routes>
