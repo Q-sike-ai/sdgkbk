@@ -8,7 +8,7 @@ const StyledHome = styled.div`
   position: relative;
   padding: 40px 0;
   min-height: 800px;
-  background: url('/images/大学大门/清华1.webp') no-repeat center top fixed;
+  background: url('./images/大学大门/清华1.webp') no-repeat center top fixed;
   background-size: 100% auto;
   
   &::before {
@@ -30,7 +30,7 @@ const StyledHome = styled.div`
 
 const Banner = styled.div`
   position: relative;
-  background: url('/images/大学大门/北大1.jpg');
+  background: url('./images/大学大门/北大1.jpg');
   background-size: cover;
   background-position: center calc(50% + 80px);
   padding: 80px 0;
@@ -133,7 +133,7 @@ const FeatureCard = styled(Card)<FeatureCardProps>`
   }
   
   ${props => props.isCenter && `
-    background: url('/images/大学大门/文曲1.jpg');
+    background: url('./images/大学大门/文曲1.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -147,7 +147,7 @@ const FeatureCard = styled(Card)<FeatureCardProps>`
       width: 50%;
       height: 0;
       padding-bottom: 50%;
-      background: url('/images/大学大门/香炉.png') no-repeat center/contain;
+      background: url('./images/大学大门/香炉.png') no-repeat center/contain;
       z-index: 1;
     }
   `}
@@ -176,32 +176,32 @@ const features = [
   {
     title: '报考信息录入',
     description: '填写高考成绩、兴趣爱好等信息，获取个性化报考建议',
-    icon: '/images/图标/报考指南.svg',
+    icon: './images/图标/报考指南.svg',
     link: '/admission-form'
   },
   {
     title: '智能分析推荐',
     description: '基于AI算法，推荐最适合的院校和专业',
-    icon: '/images/图标/报考-提示.svg',
+    icon: './images/图标/报考-提示.svg',
     link: '/analysis'
   },
   {
     title: '周易八卦分析',
     description: '结合传统文化，从周易角度解读报考运势',
-    icon: '/images/图标/太极.svg',
+    icon: './images/图标/太极.svg',
     link: '/divination'
   },
   {
     title: '文曲星祈福',
     description: '在线上香祈福，祝愿金榜题名',
-    icon: '/images/图标/星星1.svg',
+    icon: './images/图标/星星1.svg',
     link: '/blessing'
   },
 
   {
     title: '常见问题解答',
     description: '解答高考报考过程中的常见疑问',
-    icon: '/images/图标/图书.svg',
+    icon: './images/图标/图书.svg',
     link: '/faq'
   }
 ];
