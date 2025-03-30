@@ -79,7 +79,7 @@ const BackgroundMusic: React.FC = () => {
     <>
       <audio
         ref={audioRef}
-        src="/sdgkbk/images/状元郎.MP3"
+        src="./images/状元郎.MP3"
         preload="auto"
       />
       <MusicButton

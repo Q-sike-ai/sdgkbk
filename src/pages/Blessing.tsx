@@ -10,7 +10,7 @@ const StyledCard = styled(Card)`
     width: 100%;
     max-width: 800px;
     margin: 20px auto;
-    background: url('/images/大学大门/文曲2.png') center center no-repeat;
+    background: url('./images/大学大门/文曲2.png') center center no-repeat;
     background-size: cover;
     border: none;
     border-radius: 15px;
@@ -36,7 +36,7 @@ const PageBackground = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('/images/大学大门/浙大1.jpg') no-repeat center center fixed;
+  background: url('./images/大学大门/浙大1.jpg') no-repeat center center fixed;
   background-size: cover;
   z-index: 0;
   &::before {
@@ -67,7 +67,7 @@ const BlessingContainer = styled.div`
 const IncenseBurnerImage = styled.div`
   width: 300px;
   height: 300px;
-  background-image: url('/images/大学大门/香炉1.png');
+  background-image: url('./images/大学大门/香炉1.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
